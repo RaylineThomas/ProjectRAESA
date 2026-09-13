@@ -1,0 +1,78 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#2d5016" stroke-width="6"/>
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#d4a574" stroke-width="3"/>
+  
+  <!-- Africa map shape -->
+  <g id="africa">
+    <path d="M 200 80 L 230 120 L 240 140 L 235 180 L 240 220 L 230 260 L 200 280 L 170 260 L 160 220 L 165 180 L 160 140 L 170 120 Z" fill="#2d5016"/>
+    
+    <!-- Acacia tree in center -->
+    <circle cx="200" cy="200" r="25" fill="#d4a574" opacity="0.3"/>
+    <path d="M 200 175 Q 190 165 185 160 M 200 175 Q 210 165 215 160 M 200 175 L 200 190" stroke="#d4a574" stroke-width="2" fill="none"/>
+    <circle cx="190" cy="160" r="4" fill="#d4a574"/>
+    <circle cx="210" cy="160" r="4" fill="#d4a574"/>
+  </g>
+  
+  <!-- Left circle - Sea turtle (teal) -->
+  <circle cx="100" cy="140" r="45" fill="#1b4d5c"/>
+  <ellipse cx="95" cy="140" rx="20" ry="30" fill="#f5f1e8" opacity="0.8"/>
+  <circle cx="85" cy="130" r="3" fill="#1b4d5c"/>
+  <path d="M 110 140 Q 115 135 120 140" stroke="#f5f1e8" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Top-left circle - Dog (forest green) -->
+  <circle cx="120" cy="70" r="50" fill="#2d5016"/>
+  <!-- Dog head -->
+  <circle cx="120" cy="60" r="18" fill="#f5f1e8" opacity="0.8"/>
+  <circle cx="110" cy="55" r="6" fill="#f5f1e8" opacity="0.6"/>
+  <circle cx="130" cy="55" r="6" fill="#f5f1e8" opacity="0.6"/>
+  <!-- Tree outline -->
+  <path d="M 120 85 L 115 75 L 125 75 Z" stroke="#f5f1e8" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <path d="M 120 85 L 110 80 L 130 80 Z" stroke="#f5f1e8" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <!-- Birds -->
+  <path d="M 100 45 Q 105 40 110 45 M 130 40 Q 135 35 140 40" stroke="#f5f1e8" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- Top-right circle - Elephant (gold) -->
+  <circle cx="280" cy="70" r="50" fill="#d4a574"/>
+  <!-- Elephant body -->
+  <ellipse cx="280" cy="75" rx="15" ry="20" fill="#f5f1e8" opacity="0.8"/>
+  <!-- Elephant trunk -->
+  <path d="M 280 95 Q 275 110 280 120" stroke="#f5f1e8" stroke-width="3" opacity="0.8" fill="none"/>
+  <!-- Elephant ear -->
+  <ellipse cx="295" cy="70" rx="10" ry="18" fill="#f5f1e8" opacity="0.6"/>
+  <!-- Birds -->
+  <path d="M 260 40 Q 265 35 270 40 M 290 35 Q 295 30 300 35" stroke="#f5f1e8" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- Right circle - Eagle (dark brown) -->
+  <circle cx="300" cy="140" r="45" fill="#3d2817"/>
+  <!-- Eagle body -->
+  <ellipse cx="300" cy="145" rx="12" ry="18" fill="#f5f1e8" opacity="0.8"/>
+  <!-- Eagle wings -->
+  <path d="M 288 140 L 275 130 M 312 140 L 325 130" stroke="#f5f1e8" stroke-width="3" opacity="0.7" fill="none"/>
+  <!-- Mountain outline -->
+  <path d="M 285 160 L 300 145 L 315 160" stroke="#f5f1e8" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- Left decorative leaves -->
+  <g id="leaves">
+    <ellipse cx="70" cy="220" rx="4" ry="12" fill="#2d5016" opacity="0.7" transform="rotate(-45 70 220)"/>
+    <ellipse cx="65" cy="235" rx="4" ry="12" fill="#2d5016" opacity="0.7" transform="rotate(-30 65 235)"/>
+    <ellipse cx="68" cy="250" rx="4" ry="12" fill="#2d5016" opacity="0.7" transform="rotate(0 68 250)"/>
+    <ellipse cx="75" cy="265" rx="4" ry="12" fill="#2d5016" opacity="0.7" transform="rotate(30 75 265)"/>
+  </g>
+  
+  <!-- Center text - Large R -->
+  <text x="200" y="230" font-size="120" font-weight="bold" text-anchor="middle" fill="#2d5016" font-family="Georgia, serif">R</text>
+  
+  <!-- Bottom text -->
+  <text x="200" y="320" font-size="32" font-weight="bold" text-anchor="middle" fill="#2d5016" font-family="Georgia, serif">PROJECT</text>
+  <text x="200" y="360" font-size="48" font-weight="bold" text-anchor="middle" fill="#2d5016" font-family="Georgia, serif">RAE SA</text>
+  <text x="210" y="365" font-size="24" text-anchor="start" fill="#2d5016">🐾</text>
+  
+  <!-- Bottom tagline -->
+  <line x1="80" y1="385" x2="135" y2="385" stroke="#d4a574" stroke-width="2"/>
+  <line x1="265" y1="385" x2="320" y2="385" stroke="#d4a574" stroke-width="2"/>
+  <text x="200" y="420" font-size="14" text-anchor="middle" fill="#2d5016" font-family="Arial, sans-serif" font-weight="600">RESCUE. ANIMALS. EVERYWHERE.</text>
+  
+  <!-- Heart accent -->
+  <text x="155" y="387" font-size="14" text-anchor="middle">❤️</text>
+</svg>
