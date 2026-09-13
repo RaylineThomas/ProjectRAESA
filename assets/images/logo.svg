@@ -2,18 +2,18 @@
   <!-- Outer circles -->
   <defs>
     <style>
-      .forest-green { fill: #2d5016; }
-      .light-green { fill: #4a7c2f; }
-      .cream { fill: #f5f1e8; }
-      .gold { fill: #d4a574; }
+      .forest-green { fill: #2F5D50; }
+      .light-green { fill: #4a7c6f; }
+      .cream { fill: #F7F1E5; }
+      .gold { fill: #C9A45C; }
       .teal { fill: #1a4d5c; }
       .brown { fill: #3d3d2d; }
     </style>
   </defs>
   
   <!-- Outer circle border -->
-  <circle cx="200" cy="200" r="180" fill="none" stroke="#2d5016" stroke-width="8"/>
-  <circle cx="200" cy="200" r="175" fill="none" stroke="#d4a574" stroke-width="3"/>
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#2F5D50" stroke-width="8"/>
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#C9A45C" stroke-width="3"/>
   
   <!-- Africa map shape -->
   <path d="M 200 80 L 240 100 L 250 130 L 240 160 L 260 180 L 250 220 L 270 260 L 240 280 L 200 290 L 160 280 L 130 260 L 120 220 L 110 180 L 130 160 L 120 130 L 130 100 Z" class="forest-green" opacity="0.95"/>
@@ -56,10 +56,10 @@
   <g transform="translate(290, 100)">
     <ellipse cx="0" cy="0" rx="14" ry="16" class="cream"/>
     <circle cx="0" cy="-12" r="6" class="cream"/>
-    <path d="M 0 -6 Q 4 4 2 12" stroke="#f5f1e8" stroke-width="4" fill="none"/>
+    <path d="M 0 -6 Q 4 4 2 12" stroke="#F7F1E5" stroke-width="4" fill="none"/>
     <rect x="-4" y="12" width="2.5" height="8" class="cream"/>
     <rect x="1.5" y="12" width="2.5" height="8" class="cream"/>
-    <path d="M -6 24 L -3 20 M 0 24 L 3 20 M 6 24 L 9 20" stroke="#d4a574" stroke-width="1.5"/>
+    <path d="M -6 24 L -3 20 M 0 24 L 3 20 M 6 24 L 9 20" stroke="#C9A45C" stroke-width="1.5"/>
   </g>
   
   <!-- Right: Eagle Circle (Brown background) -->
